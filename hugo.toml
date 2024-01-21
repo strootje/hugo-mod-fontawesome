@@ -3,7 +3,3 @@ path = "github.com/FortAwesome/Font-Awesome"
 [[module.imports.mounts]]
 source = "svgs"
 target = "assets/icons"
-
-[[mounts]]
-source = "layout"
-target = "layout"
