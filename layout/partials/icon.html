@@ -1,0 +1,5 @@
+{{- with resources.Get (printf "icons/%s.svg" .) -}}
+	<span class="icon" aria-hidden="true">{{- .Content | safeHTML -}}</span>
+{{- else -}}
+	{{- errorf "%s is not a icon" . -}}
+{{- end -}}
