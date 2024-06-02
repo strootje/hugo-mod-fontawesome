@@ -1,4 +1,4 @@
-module git.strooware.nl/hugomods/fontawesome
+module github.com/strootje/hugo-mod-fontawesome
 
 go 1.21.5
 
